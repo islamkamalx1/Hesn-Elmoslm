@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Elheeg">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        app:srcCompat="@drawable/elheeg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/roayat_elqaaba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="#EEE8EF"
+            android:padding="10dp"
+            android:text="الدعاء عند رؤية الكعبة"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/hagar_aswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="#EEE8EF"
+            android:padding="10dp"
+            android:text="الدعاء عند استلام الحجر الاسود"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/twaf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="#EEE8EF"
+            android:padding="10dp"
+            android:text="الدعاء عند الطواف"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/safa_marwa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="#EEE8EF"
+            android:padding="10dp"
+            android:text="الدعاء عند صعود الصفا و المروة"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/arafat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="#EEE8EF"
+            android:padding="10dp"
+            android:text="الدعاء  في عرفات"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".morning">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="28dp"
+        app:srcCompat="@drawable/morrning" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/sabah_masaa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#E8E4E4"
+                android:padding="10dp"
+                android:text="اذكار الصباح و المساء"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/waking_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#E8E4E4"
+                android:padding="10dp"
+                android:text="اذكار الاستيقاظ من النوم"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/noom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#E8E4E4"
+                android:padding="10dp"
+                android:text="اذكار النوم"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/dreaming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#E8E4E4"
+                android:padding="10dp"
+                android:text="اذكار الفزع او الحلم"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/moving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#E8E4E4"
+                android:padding="10dp"
+                android:text="دعاء التقلب ليلا"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

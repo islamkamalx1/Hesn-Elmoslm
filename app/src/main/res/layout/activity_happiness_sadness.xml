@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".happiness_sadness">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        app:srcCompat="@drawable/haapy" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/khoof"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#ECE8DC"
+                android:padding="10dp"
+                android:text="دعاء القلق والخوف"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/wswas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#ECE8DC"
+                android:padding="10dp"
+                android:text="دعاء الوسواس القهري والتفكير"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/happiness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#ECE8DC"
+                android:padding="10dp"
+                android:text="دعاء السعاده وراحه البال"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/rezk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#ECE8DC"
+                android:padding="10dp"
+                android:text="دعاء الرزق والتوفيق"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

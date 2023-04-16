@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        app:srcCompat="@drawable/image" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/wodooaImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/people" />
+
+                <ImageView
+                    android:id="@+id/imageMorning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/moon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/wodooaBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:padding="10dp"
+                    android:text="الوضوء و الصلاة"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/morningBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:padding="10dp"
+                    android:text="النهار و الليل"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/foodImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/tools" />
+
+                <ImageView
+                    android:id="@+id/elhegImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/kaaba" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/foodBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:padding="10dp"
+                    android:text="الاطعام و الشراب"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/elhegBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:padding="10dp"
+                    android:text="الحج و العمرة"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/illnessImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/mask" />
+
+                <ImageView
+                    android:id="@+id/happyImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/smile" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/illnessBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:padding="10dp"
+                    android:text="المرض و المصائب"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/happyBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:padding="10dp"
+                    android:text="الخوف و السعادة"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/eladabImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/hands" />
+
+                <ImageView
+                    android:id="@+id/travelImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/plane" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/eladabBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:padding="10dp"
+                    android:text="الأدب و التعامل"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/travelBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:padding="10dp"
+                    android:text="السفر و التوكل"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/eduImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/book" />
+
+                <ImageView
+                    android:id="@+id/sehrImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/eye" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/eduBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:padding="10dp"
+                    android:text="طلب العلم"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/sehrBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:padding="10dp"
+                    android:text="السحر و الحسد"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

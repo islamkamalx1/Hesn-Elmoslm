@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aass"
+        tools:targetApi="31">
+        <activity
+            android:name=".tasheel_mozakra"
+            android:exported="false" />
+        <activity
+            android:name=".tasbeet_el3lm"
+            android:exported="false" />
+        <activity
+            android:name=".talab_el3lm"
+            android:exported="false" />
+        <activity
+            android:name=".mozakra_start"
+            android:exported="false" />
+        <activity
+            android:name=".shar_elnas"
+            android:exported="false" />
+        <activity
+            android:name=".mahaba"
+            android:exported="false" />
+        <activity
+            android:name=".mkarm_akhlaa"
+            android:exported="false" />
+        <activity
+            android:name=".hosn_kholoq"
+            android:exported="false" />
+        <activity
+            android:name=".tahween"
+            android:exported="false" />
+        <activity
+            android:name=".twakol"
+            android:exported="false" />
+        <activity
+            android:name=".safar_back"
+            android:exported="false" />
+        <activity
+            android:name=".safar_go"
+            android:exported="false" />
+        <activity
+            android:name=".shfaa"
+            android:exported="false" />
+        <activity
+            android:name=".wkaya"
+            android:exported="false" />
+        <activity
+            android:name=".karb"
+            android:exported="false" />
+        <activity
+            android:name=".balaa"
+            android:exported="false" />
+        <activity
+            android:name=".rezk"
+            android:exported="false" />
+        <activity
+            android:name=".happiness"
+            android:exported="false" />
+        <activity
+            android:name=".wswas"
+            android:exported="false" />
+        <activity
+            android:name=".khoof"
+            android:exported="false" />
+        <activity
+            android:name=".d5ol_betAllah"
+            android:exported="false" />
+        <activity
+            android:name=".zhaab_betAlla"
+            android:exported="false" />
+        <activity
+            android:name=".thank_food"
+            android:exported="false" />
+        <activity
+            android:name=".save_food"
+            android:exported="false" />
+        <activity
+            android:name=".end_food"
+            android:exported="false" />
+        <activity
+            android:name=".start_food"
+            android:exported="false" />
+        <activity
+            android:name=".arafat"
+            android:exported="false" />
+        <activity
+            android:name=".safa_marwa"
+            android:exported="false" />
+        <activity
+            android:name=".eltwaf"
+            android:exported="false" />
+        <activity
+            android:name=".elhagar_elaswd"
+            android:exported="false" />
+        <activity
+            android:name=".roayat_elqaaba"
+            android:exported="false" />
+        <activity
+            android:name=".hefz_sehr"
+            android:exported="false" />
+        <activity
+            android:name=".fak_sehr"
+            android:exported="false" />
+        <activity
+            android:name=".tahseen_sehr"
+            android:exported="false" />
+        <activity
+            android:name=".before_wodooa"
+            android:exported="false" />
+        <activity
+            android:name=".after_wodooa"
+            android:exported="false" />
+        <activity
+            android:name=".moving_night"
+            android:exported="false" />
+        <activity
+            android:name=".dreaming"
+            android:exported="false" />
+        <activity
+            android:name=".waking_up"
+            android:exported="false" />
+        <activity
+            android:name=".sabahWEmasaa"
+            android:exported="false" />
+        <activity
+            android:name=".azkarelnoom"
+            android:exported="false" />
+        <activity
+            android:name=".eladab"
+            android:exported="false" />
+        <activity
+            android:name=".sehr"
+            android:exported="false" />
+        <activity
+            android:name=".book"
+            android:exported="false" />
+        <activity
+            android:name=".traveling"
+            android:exported="false" />
+        <activity
+            android:name=".sick_people"
+            android:exported="false" />
+        <activity
+            android:name=".happiness_sadness"
+            android:exported="false" />
+        <activity
+            android:name=".food_drink"
+            android:exported="false" />
+        <activity
+            android:name=".Elheeg"
+            android:exported="false" />
+        <activity
+            android:name=".wodooa"
+            android:exported="false" />
+        <activity
+            android:name=".morning"
+            android:exported="false" />
+        <activity
+            android:name=".welcom"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

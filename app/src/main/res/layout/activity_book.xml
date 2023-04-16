@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="35dp"
+    android:orientation="vertical"
+    tools:context=".book">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        app:srcCompat="@drawable/book_1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mozakra_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#E5E6EF"
+                android:padding="10dp"
+                android:text="دعاء بدء المذاكرة"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/talab_el3lm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#E5E6EF"
+                android:padding="10dp"
+                android:text="دعاء طلب العلم و سرعة الفهم"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tsbeet_el3lm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#E5E6EF"
+                android:padding="10dp"
+                android:text="دعاء تثبيت العلم"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tsheel_mozakra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="#E5E6EF"
+                android:padding="10dp"
+                android:text="دعاء تسهيل المذاكرة"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
